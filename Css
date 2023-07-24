@@ -1,0 +1,34 @@
+.container{
+            background-color: hwb(181 16% 48% / 0.729);
+            font-family: Verdana;
+            text-align: center;
+}
+
+.form{
+
+            background-color: #fff;
+            max-width: 50%;
+            margin: 10% auto;
+            padding: 4% 5%;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.name{
+
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.emai{
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+input{
+            border: 1px solid #777;
+            border-radius: 5px;
+            font-family: inherit;
+            padding: 1%;
+            display: block;
+            width: 95%;
+}
