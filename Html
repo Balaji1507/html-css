@@ -8,25 +8,28 @@
 </head>
 <body class="container">
     <div class="form">
-    <form action="#" method="post">
-       <div class="name"><label>Name :</label>
-        <input type="name" name="name" maxlength="50" size="20" placeholder="type your name"/><br></div>
+    <form action="./page.php" method="post">
+       <div class="fname"><label>What is your first name ?</label><br><br>
+        <input type="name" name="name"  placeholder="type your name" required/><br></div>
 
-        <div class="emai"><label>Email :</label>
-        <input type="email" name="email" maxlength="50" size="20" placeholder="email@com"/><br></div>
+        <div class="lname"><label>What is your last name ?</label><br><br>
+            <input type="name" name="name"  placeholder="type your name"required/><br></div>
 
-        <div class="Mob"><label>Mobile No :</label>
-        <input type="number" name="number" maxlength="50" size="20"/><br></div>
+        <div class="emai"><label>What is your email ?</label><br><br>
+        <input type="email" name="email" placeholder="email@com" required/><br></div>
 
-        <div class="Nat"><label>Nationality :</label>
-        <select id="Nationality">
+        <div class="Mob"><label>What is your Mobile No ?</label><br><br>
+        <input type="number" name="number" required/><br></div>
+
+        <div class="Nat"><label>What is your place of origin ?</label><br><br>
+        <select id="Nationality" required>
             <option value="Indian">Indian</option>
             <option value="Others">Others</option>
         </select><br></div>
 
         <div class="reli">
-        <label>Religion :</label>
-        <select id="Religion">
+        <label>What is your religion?</label><br><br>
+        <select id="Religion" required>
             <option value="Hindhu">Hindhu</option>
             <option value="Muslim">Muslim</option>
             <option value="Christian">Christian</option>
@@ -34,14 +37,14 @@
 
 
         <div class="mart">
-        <label>Martial status :</label>
-        <select id="Martial status">
+        <label>Martial status :</label><br><br>
+        <select id="Martial status" required>
             <option value="Married">Married</option>
             <option value="Unmarried">Unmarried</option>  
         </select><br></div>
 
-        <div class="edu"><label>Education :</label><br>
-        <select id="Martial status">
+        <div class="edu"><label>Education :</label><br><br>
+        <select id="Education" required>
             <option value="B.Sc">B.Sc</option>
             <option value="M.Sc">M.Sc</option>  
             <option value="B.E">B.E</option>
@@ -50,25 +53,23 @@
             <option value="M.A">M.A</option> 
         </select><br></div>
 
-        <div class="lan"><label>Language Known :</label><br>
+        <div class="lan"><label>Language Known :</label>
+        <br>
+        <br>
+        <label >Tamil</label><br>
         <input type="checkbox" id="Tamil" name="Tamil" value="Tamil">
-        <label > Tamil</label><br>
-        <input type="checkbox" id="English" name="English" value="English">
         <label > English</label><br>
+        <input type="checkbox" id="English" name="English" value="English">
+        <label > Hindi</label><br>
         <input type="checkbox" id="Hindi" name="Hindi" value="Hindi">
-        <label > Hindi</label><br></div>
+        </div>
 
         
-        <div class="add"><label >Address:</label>
-        <textarea id="Address" name="Address" rows="5" cols="21"></textarea><br></div>
-        <div class="but">
+        <div class="add"><label >Address:</label><br><br>
+        <textarea id="Address" name="Address" rows="10" cols="20"></textarea><br></div>
+        <div class="but" >
         <input type="button" name="button" value="Submit">
         </div>
-        
-
-    
-
-
     </form>
     </div>
     
